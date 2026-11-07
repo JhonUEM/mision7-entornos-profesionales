@@ -13,9 +13,17 @@ La estimación es la del proyecto original: **media de las ventas × factor** (p
 ## 2. Instalación desde cero
 
 Linux / WSL / macOS:
+Obtener el proyecto (una de las dos opciones):
 ```bash
+# a) desde GitHub
 git clone https://github.com/JhonUEM/mision7-entornos-profesionales.git
 cd mision7-entornos-profesionales
+# b) desde el zip de la entrega: descomprimirlo y entrar en la carpeta
+cd M7_Sepulveda_Torres_Jhon
+```
+
+Crear el entorno e instalar:
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -74,6 +82,7 @@ data/ventas.csv datos de ejemplo
 diagnostico.md  problemas del proyecto heredado
 evidencias.md   evidencias de la misión
 capturas/       capturas de las evidencias
+.git/           historial de Git (en el zip): git log --oneline --graph --all
 ```
 
 ## 8. Problemas frecuentes
