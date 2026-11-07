@@ -59,7 +59,7 @@ se muestra `Error: ...` y el código de salida es 1.
 ```bash
 python -m pytest -q        # esperado: 11 passed
 ruff check .               # esperado: All checks passed!
-ruff format --check .      # esperado: 8 files already formatted
+ruff format --check .      # esperado: N files already formatted (sin "Would reformat")
 ```
 
 ## 7. Estructura
@@ -73,6 +73,7 @@ tests/          pruebas pytest (modelo, datos, config)
 data/ventas.csv datos de ejemplo
 diagnostico.md  problemas del proyecto heredado
 evidencias.md   evidencias de la misión
+capturas/       capturas de las evidencias
 ```
 
 ## 8. Problemas frecuentes
